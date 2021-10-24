@@ -7,4 +7,5 @@ The Post component will represent one post only, and more posts could be added u
 </br>
 <i>Hint: use props to be able to change the content of the posts.</i>
 </br>
+
 ![image](React_App.png)
