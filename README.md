@@ -4,8 +4,10 @@ Create a personal blog website using React components similar to the below image
 - Post
 - Footer
 The Post component will represent one post only, and more posts could be added using the same component.
-</br>
-<i>Hint: use props to be able to change the content of the posts.</i>
-</br>
 
-![image](React_App.png)
+Hint: use props to be able to change the content of the posts.
+
+
+<kbd>
+<img src="React_App.png"/>
+</kbd>
