@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+body {
+  background-image: url("./always-grey.png");
+  background-color: #83def785;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.page {
+  display: flex;
+  justify-content: space-around;
+  height: 70vh;
+  padding: 3%;
+}
+.Card {
+  width: 30%;
+  border: 1px gray solid;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 0 20px gray;
+  background-color: rgba(255, 255, 255, 0.493);
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  align-items: center;
+  bottom: 0;
+  height: 10vh;
+  border-top: 1px gray solid;
+  background-color: rgb(255, 255, 255);
+}
+.welcome {
+  margin: auto;
+  width: max-content;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 10px gray;
+}
+.headerUl {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+  align-items: center;
+  height: 10vh;
+  width: 100%;
+  border-bottom: solid grey 1px;
+  background-color: rgb(255, 255, 255);
+  padding: 0;
+}
+.headerUl a {
+  text-decoration: none;
+  color: rgb(109, 109, 109);
+  font-weight: bold;
+}
