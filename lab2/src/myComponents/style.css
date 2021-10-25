@@ -1,0 +1,21 @@
+.postcontiner {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 8px 8px;
+}
+
+.myheader {
+  text-align: center;
+  margin-top: 7%;
+  padding-bottom: 3%;
+  color: white;
+}
+.myfotter {
+  position: fixed;
+  left: 0;
+
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: white;
+  text-align: center;
+}
